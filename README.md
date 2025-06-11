@@ -3,7 +3,7 @@
 Este repositório contém uma aplicação desenvolvida em **Delphi**.
 
 <p align="center">
-  <img src="image/mascote_delphi.png" alt="Mascote" width="510"/>
+  <img src="image/mascote.png" alt="Mascote" width="510"/>
 </p>
 
 ## Sobre
@@ -21,6 +21,11 @@ O projeto Mascote é uma aplicação criada com Delphi, utilizando componentes v
 
 1. Abra o Delphi IDE.
 2. Selecione o arquivo de projeto (`.dpr`) para carregar a aplicação.
+
+<p align="center">
+  <img src="image/mascote_delphi.png" alt="Mascote" width="510"/>
+</p>
+
 
 ## Como obter o Delphi e compilar a aplicação
 

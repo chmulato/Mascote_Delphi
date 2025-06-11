@@ -26,7 +26,6 @@ O projeto Mascote é uma aplicação criada com Delphi, utilizando componentes v
   <img src="image/mascote_delphi.png" alt="Mascote" width="510"/>
 </p>
 
-
 ## Como obter o Delphi e compilar a aplicação
 
 1. **Baixar o Delphi:**  

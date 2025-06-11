@@ -82,10 +82,13 @@ mascote/
 ├── Win32/
 │   └── Debug/
 │       ├── Mascote.exe
+│       ├── mascote.gif   ← Necessário para funcionamento do executável
 │       └── cycle_log.txt
 ├── Win64/
 │   └── Debug/
-│       └── Mascote.exe
+│       ├── Mascote.exe
+│       └── mascote.gif   ← Necessário para funcionamento do executável
+│       └── cycle_log.txt
 ├── image/
 │   ├── mascote.png
 │   └── mascote_delphi.png

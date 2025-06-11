@@ -17,6 +17,30 @@ O projeto Mascote é uma aplicação criada com Delphi, utilizando componentes v
 - **Build**: Pastas como `Win32/`, `Win64/`, `Debug/` e `Release/` são geradas automaticamente e estão ignoradas no versionamento.
 - **Backup/Temporários**: Arquivos de backup e temporários também são ignorados pelo `.gitignore`.
 
+## Fluxograma da Lógica
+
+Abaixo está um fluxograma simplificado do funcionamento principal do Mascote:
+
+```mermaid
+flowchart TD
+    A[Iniciar Aplicação] --> B{Botão Ativar pressionado?}
+    B -- Não --> A
+    B -- Sim --> C[Definir Intervalo]
+    C --> D[Iniciar Timer]
+    D --> E{Timer disparou?}
+    E -- Não --> D
+    E -- Sim --> F[Movimentar Mouse]
+    F --> G[Pressionar Tecla]
+    G --> H[Clicar no ícone do Teams]
+    H --> I[Manter Teams Ativo]
+    I --> J{Som ativado?}
+    J -- Sim --> K[Tocar Som]
+    J -- Não --> L[Incrementar Ciclo]
+    K --> L
+    L --> M[Registrar Log]
+    M --> D
+```
+
 ## Como abrir
 
 1. Abra o Delphi IDE.

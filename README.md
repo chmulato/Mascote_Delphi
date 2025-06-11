@@ -2,6 +2,10 @@
 
 Este repositório contém uma aplicação desenvolvida em **Delphi**.
 
+<p align="center">
+  <img src="image/mascote_delphi.png" alt="Mascote" width="510"/>
+</p>
+
 ## Sobre
 
 O projeto Mascote é uma aplicação criada com Delphi, utilizando componentes visuais e recursos da linguagem Object Pascal.  

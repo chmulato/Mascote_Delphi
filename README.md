@@ -69,10 +69,6 @@ flowchart TD
 5. **Executar:**
    Após a compilação bem-sucedida, você pode executar a aplicação diretamente do Delphi ou localizar o executável na pasta de saída (geralmente `Win32\Debug\` ou `Win64\Debug\`).
 
-   > **Atenção:**  
-   > Para evitar o erro `Cannot open file "mascote.gif"`, certifique-se de que o arquivo **mascote.gif** esteja presente no mesmo diretório onde o executável da aplicação é gerado (por exemplo, na pasta `Win32\Debug\` ou `Win64\Debug\`).  
-   > Caso contrário, a aplicação não conseguirá carregar a imagem do mascote e exibirá uma mensagem de erro ao iniciar.
-
 ## Requisitos
 
 - Delphi (qualquer versão compatível com o projeto)
@@ -85,3 +81,9 @@ Sinta-se à vontade para contribuir com melhorias, sugestões ou correções atr
 ## Licença
 
 Este projeto está licenciado sob a licença [MIT](LICENSE).
+
+## Observação Importante
+
+> **Atenção:**  
+> Para evitar o erro `Cannot open file "mascote.gif"`, certifique-se de que o arquivo **mascote.gif** esteja presente no mesmo diretório onde o executável da aplicação é gerado (por exemplo, na pasta `Win32\Debug\` ou `Win64\Debug\`).  
+> Caso contrário, a aplicação não conseguirá carregar a imagem do mascote e exibirá uma mensagem de erro ao iniciar.

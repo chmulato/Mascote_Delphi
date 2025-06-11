@@ -69,6 +69,31 @@ flowchart TD
 5. **Executar:**
    Após a compilação bem-sucedida, você pode executar a aplicação diretamente do Delphi ou localizar o executável na pasta de saída (geralmente `Win32\Debug\` ou `Win64\Debug\`).
 
+## Estrutura de Pastas
+
+```
+mascote/
+├── README.md
+├── LICENSE
+├── mascote.gif
+├── Mascote.dpr
+├── Unit1.pas
+├── Unit1.dfm
+├── Win32/
+│   └── Debug/
+│       ├── Mascote.exe
+│       └── cycle_log.txt
+├── Win64/
+│   └── Debug/
+│       └── Mascote.exe
+├── image/
+│   ├── mascote.png
+│   └── mascote_delphi.png
+```
+- **mascote.gif**: Imagem do mascote, deve estar no mesmo diretório do executável gerado.
+- **Win32/Debug/** e **Win64/Debug/**: Pastas onde o Delphi gera os executáveis e logs.
+- **image/**: Imagens usadas na documentação.
+
 ## Requisitos
 
 - Delphi (qualquer versão compatível com o projeto)
@@ -87,3 +112,15 @@ Este projeto está licenciado sob a licença [MIT](LICENSE).
 > **Atenção:**  
 > Para evitar o erro `Cannot open file "mascote.gif"`, certifique-se de que o arquivo **mascote.gif** esteja presente no mesmo diretório onde o executável da aplicação é gerado (por exemplo, na pasta `Win32\Debug\` ou `Win64\Debug\`).  
 > Caso contrário, a aplicação não conseguirá carregar a imagem do mascote e exibirá uma mensagem de erro ao iniciar.
+
+## Relatórios com o arquivo `cycle_log.txt`
+
+O arquivo `cycle_log.txt` é gerado automaticamente na mesma pasta do executável (`Win32\Debug\` ou `Win64\Debug\`) e registra cada ciclo executado pelo Mascote, incluindo a data, hora e o total de ciclos até aquele momento.
+
+Você pode utilizar esse arquivo para:
+
+- **Auditoria de uso:** Verificar quantas vezes e em quais horários o Mascote executou ações.
+- **Análise de produtividade:** Avaliar períodos de atividade simulada no computador.
+- **Geração de relatórios personalizados:** Importar o arquivo em planilhas (Excel, Google Sheets) ou ferramentas de análise para criar gráficos ou relatórios detalhados sobre o uso do Mascote.
+
+O arquivo é salvo em formato texto simples, facilitando sua leitura e manipulação por outros programas.

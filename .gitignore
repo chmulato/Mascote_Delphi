@@ -1,0 +1,49 @@
+# Pastas de saída de build
+Win32/
+Win64/
+Debug/
+Release/
+
+# Arquivos de backup e históricos
+*.~*
+*.dcu
+*.dcp
+*.dsk
+*.local
+*.identcache
+*.stat
+*.tvsconfig
+*.map
+*.hpp
+*.obj
+*.exe
+*.dll
+*.bpl
+*.ocx
+*.tds
+*.bak
+*.cfg
+*.drc
+*.dproj.local
+*.dproj.user
+*.ipch
+*.pch
+*.sdf
+*.sqlite
+*.tmp
+*.log
+
+# Pastas de histórico do Delphi
+__history/
+__recovery/
+
+# Outras pastas/arquivos temporários
+*.rs~
+*.dsm
+*.dof
+*.cfg
+*.bdsproj
+*.groupproj
+*.tvsconfig
+*.svn/
+*.vs/
